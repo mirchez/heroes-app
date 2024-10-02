@@ -1,3 +1,3 @@
 # Heroes App
 
-Simple App usign React Router 6
+Simple App using React Router 6 to find your favorite Hero
