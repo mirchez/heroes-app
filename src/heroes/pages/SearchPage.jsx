@@ -35,7 +35,7 @@ export const SearchPage = () => {
 
           <div className="col-5">
             <hr />
-            <form onSubmit={onSearchSubmit}>
+            <form onSubmit={onSearchSubmit} aria-label='form'>
               <input 
                 type="text"
                 placeholder="Spider-Man"
@@ -48,8 +48,6 @@ export const SearchPage = () => {
                 <button className="btn btn-outline-primary mt-2 fa fa-search">
                     
                 </button>
-
-                
 
             </form>
           </div>
@@ -64,7 +62,9 @@ export const SearchPage = () => {
             </div>
 
             <div className="alert alert-danger animate__animated animate__fadeIn" 
-                style={{ display: showError ? '' : 'none' }}>
+                style={{ display: showError ? '' : 'none' }}
+                aria-label='noFound'
+            >
                 <b>{ q }</b> was not found
             </div>
               {
