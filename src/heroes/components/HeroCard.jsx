@@ -11,7 +11,7 @@ export const HeroCard = ({
     characters,
 }) => {
 //es dependiente de herocard, no puede usarse fuera del scope por que no le llegan las props del mismo
-    const heroImageUrl = `/assets/heroes/${id}.jpg`;
+    const heroImageUrl = `/public//heroes/${id}.jpg`;
 
     //const characatersByHero = <p>{characters}</p>;
 

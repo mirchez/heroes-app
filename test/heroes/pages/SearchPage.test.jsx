@@ -39,7 +39,7 @@ describe('<SearchPage/> test', () => {
 
         const img = screen.getByRole('img')
 
-        expect(img.src).toContain('/assets/heroes/dc-batman.jpg')
+        expect(img.src).toContain('/public/heroes/dc-batman.jpg')
 
         const div = screen.getByLabelText('noFound')
 
